@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic website for Your Name. Research, working papers, projects, teaching, and contact information.">
+    <meta name="author" content="Your Name">
+    <meta property="og:title" content="Your Name | Academic Website">
+    <meta property="og:description" content="Research, working papers, projects, teaching, and contact information.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#ffffff">
+    <title>Your Name | Academic Website</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="masthead">
+      <nav class="masthead-inner" aria-label="Primary navigation">
+        <a class="site-title" href="#about">Home</a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span class="menu-button-lines" aria-hidden="true"></span>
+          <span class="visually-hidden">Toggle navigation</span>
+        </button>
+        <div class="site-menu" id="site-menu">
+          <a href="#working-paper">Working Paper</a>
+          <a href="#projects">Projects</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#contact">Contact</a>
+          <a href="cv.pdf">CV</a>
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode">Theme</button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="site-shell">
+      <aside class="sidebar" aria-label="Profile">
+        <div class="profile-card">
+          <div class="avatar-placeholder" role="img" aria-label="Profile photo placeholder">
+            <span>Photo</span>
+          </div>
+
+          <h2>Your Name</h2>
+          <p class="profile-email">
+            <a href="mailto:you@example.com">you@example.com</a>
+          </p>
+
+          <button class="follow-button" type="button" aria-expanded="true" aria-controls="profile-links">
+            Links
+          </button>
+
+          <ul class="profile-links" id="profile-links">
+            <li><span>Affiliation</span> Your University</li>
+            <li><a href="https://scholar.google.com/" rel="noreferrer">Google Scholar</a></li>
+            <li><a href="https://github.com/yourusername" rel="noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://orcid.org/" rel="noreferrer">ORCID</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <main class="page" id="main">
+        <section class="page-section" id="about" aria-labelledby="about-title">
+          <h1 id="about-title">About</h1>
+          <p>
+            I am a researcher working on a concise description of your research area. My work
+            focuses on topic one, topic two, and topic three.
+          </p>
+          <p>
+            I am currently affiliated with Your University. Replace this paragraph with your
+            academic background, advisor or lab, methods, and the broad questions that connect
+            your working paper and projects.
+          </p>
+          <p>
+            I am interested in collaborations related to my research agenda. You can reach me at
+            <a href="mailto:you@example.com">you@example.com</a>.
+          </p>
+        </section>
+
+        <section class="page-section" id="working-paper" aria-labelledby="working-paper-title">
+          <h2 id="working-paper-title">Working Paper</h2>
+          <article class="entry">
+            <p class="entry-meta">Working paper</p>
+            <h3>Title of Working Paper</h3>
+            <p class="authors"><strong>Your Name</strong></p>
+            <p>
+              Add a short abstract or two-sentence summary here. Mention the research question,
+              data or method, and the main contribution once the draft is ready.
+            </p>
+            <p class="entry-links">
+              <a href="#">Draft coming soon</a>
+              <a href="#">Slides coming soon</a>
+            </p>
+          </article>
+        </section>
+
+        <section class="page-section" id="projects" aria-labelledby="projects-title">
+          <h2 id="projects-title">Projects In Progress</h2>
+          <article class="entry">
+            <p class="entry-meta">Project 1</p>
+            <h3>Project Title One</h3>
+            <p>
+              Briefly describe the question, dataset, system, or experiment. Keep this to two or
+              three lines so the page stays easy to scan.
+            </p>
+          </article>
+
+          <article class="entry">
+            <p class="entry-meta">Project 2</p>
+            <h3>Project Title Two</h3>
+            <p>
+              Use this slot for a second project in progress. You can add collaborators, code,
+              datasets, or expected output later.
+            </p>
+          </article>
+
+          <article class="entry">
+            <p class="entry-meta">Project 3</p>
+            <h3>Project Title Three</h3>
+            <p>
+              Use this slot for a third project in progress. Once you give me the details, I can
+              turn this into polished academic copy.
+            </p>
+          </article>
+        </section>
+
+        <section class="page-section" id="teaching" aria-labelledby="teaching-title">
+          <h2 id="teaching-title">Teaching</h2>
+          <ul class="plain-list">
+            <li>
+              <strong>Course or Workshop Name</strong>
+              <span>Role, institution, term</span>
+            </li>
+            <li>
+              <strong>Mentoring or Service</strong>
+              <span>Optional line for advising, student mentoring, or academic service.</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="page-section" id="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title">Contact</h2>
+          <p>
+            Email: <a href="mailto:you@example.com">you@example.com</a>
+          </p>
+          <p>
+            Replace the placeholder links in the sidebar with your Google Scholar, GitHub,
+            LinkedIn, ORCID, and CV links.
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>&copy; <span id="year"></span> Your Name.</p>
+        <p>Site last updated <time datetime="2026-09-09">September 2026</time>.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
