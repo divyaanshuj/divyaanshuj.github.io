@@ -139,18 +139,18 @@
           <article class="entry">
             <h3>Algorithmic Collusion in Electricity Market Duopolies</h3>
             <p>
-              This project studies whether independently trained reinforcement-learning agents can
-              learn to tacitly collude in a stylised electricity market duopoly. Each firm submits
-              a continuous linear supply function, observes only recent market-clearing prices and
-              its own profits, and learns using Deep Deterministic Policy Gradient. I compare
-              learned outcomes against competitive, supply-function Nash, Cournot, and monopoly
-              benchmarks. The simulations show that cost structure is central: with linear costs,
-              agents settle into destructive competition, while asymmetric quadratic costs make
-              supply withholding privately attractive. Under quadratic costs, agents learn to set
-              negative supply intercepts, restricting infra-marginal output and pushing prices near
-              monopoly levels without communication. Patient agents sustain collusion longer than
-              myopic agents, suggesting that adaptive pricing tools can generate supra-competitive
-              outcomes from repeated market feedback alone.
+              Could adaptive pricing tools learn market power from feedback alone? I examine this
+              question in a stylized electricity-market duopoly where firms submit continuous
+              linear supply functions and learn from recent market-clearing prices and profits
+              using Deep Deterministic Policy Gradient. I benchmark the learned behavior against
+              competitive, supply-function Nash, Cournot, and monopoly outcomes. The simulations
+              show that cost structure is central: with linear costs, agents converge toward
+              destructive competition, while asymmetric quadratic costs make supply withholding
+              privately attractive. In the latter setting, agents learn negative supply intercepts
+              that restrict infra-marginal output and push prices near monopoly levels without
+              communication. More patient agents sustain these outcomes longer than myopic agents,
+              highlighting a potential channel through which automated bidding tools may produce
+              supra-competitive prices in repeated electricity-market settings.
             </p>
           </article>
         </section>
