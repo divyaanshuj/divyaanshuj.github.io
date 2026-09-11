@@ -145,8 +145,7 @@ button {
 }
 
 .theme-toggle,
-.menu-button,
-.follow-button {
+.menu-button {
   border: 0;
   background: transparent;
   cursor: pointer;
@@ -240,8 +239,8 @@ button {
 }
 
 .profile-title,
-.profile-email {
-  margin: 0 0 1rem;
+.profile-affiliation {
+  margin: 0;
   color: var(--muted);
   font-size: 0.9rem;
 }
@@ -250,16 +249,8 @@ button {
   margin-bottom: 0.2rem;
 }
 
-.follow-button {
-  display: inline-block;
-  margin: 0 0 0.75rem;
-  border: 1px solid var(--line);
-  border-radius: 4px;
-  background: var(--button-bg);
-  color: var(--button-text);
-  padding: 0.45rem 0.9rem;
-  font-size: 0.78rem;
-  font-weight: 700;
+.profile-affiliation {
+  margin-bottom: 1rem;
 }
 
 .profile-links {
@@ -469,8 +460,7 @@ p {
     margin-top: 0;
   }
 
-  .profile-email,
-  .follow-button {
+  .profile-affiliation {
     margin-bottom: 0;
   }
 
