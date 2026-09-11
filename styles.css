@@ -158,11 +158,23 @@ button {
   line-height: 1;
 }
 
-.theme-icon {
+.theme-symbol {
   display: inline-block;
   font-size: 1.15rem;
   line-height: 1;
   transform: translateY(1px);
+}
+
+.theme-symbol-dark {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-symbol-light {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-symbol-dark {
+  display: inline-block;
 }
 
 .menu-button {
