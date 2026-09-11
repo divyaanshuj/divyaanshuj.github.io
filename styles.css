@@ -201,22 +201,14 @@ button {
   top: 88px;
 }
 
-.avatar-placeholder {
+.profile-photo {
   width: 160px;
   aspect-ratio: 1;
-  display: grid;
-  place-items: center;
   border: 1px solid var(--dark-line);
   border-radius: 50%;
-  background: linear-gradient(145deg, #eef2f3, #d7dcde);
-  color: #7a8288;
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
-:root[data-theme="dark"] .avatar-placeholder {
-  background: linear-gradient(145deg, #5d5d5d, #3b3b3b);
-  color: #dadada;
+  display: block;
+  object-fit: cover;
+  object-position: center;
 }
 
 .profile-card h2 {
@@ -226,10 +218,15 @@ button {
   line-height: 1.2;
 }
 
+.profile-title,
 .profile-email {
   margin: 0 0 1rem;
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.profile-title {
+  margin-bottom: 0.2rem;
 }
 
 .follow-button {
@@ -318,14 +315,6 @@ p {
 .entry:first-of-type {
   border-top: 0;
   padding-top: 0;
-}
-
-.entry-meta {
-  margin: 0 0 0.35rem;
-  color: var(--light);
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .authors {
@@ -435,7 +424,7 @@ p {
     align-items: center;
   }
 
-  .avatar-placeholder {
+  .profile-photo {
     width: 96px;
     grid-row: span 3;
   }
@@ -471,7 +460,7 @@ p {
     grid-template-columns: 80px minmax(0, 1fr);
   }
 
-  .avatar-placeholder {
+  .profile-photo {
     width: 80px;
   }
 

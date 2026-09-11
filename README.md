@@ -1,6 +1,6 @@
 # Academic Website Template
 
-This is a static academic website template designed for GitHub Pages. It uses a clean AcademicPages-style structure: fixed top navigation, sticky profile sidebar, a text-first About section, one working paper, three projects in progress, teaching, CV, and contact links.
+This is a static academic website template designed for GitHub Pages. It uses a clean AcademicPages-style structure: fixed top navigation, sticky profile sidebar, a text-first About section, projects in progress, CV, and contact links.
 
 ## Files
 
@@ -17,10 +17,8 @@ Send any details you already have. Partial information is fine.
 - Current role, department, lab, and university
 - Short bio, or a few bullet points I can turn into a bio
 - Research interests
-- Your one working paper title, authors, abstract or summary, and draft/slides links if available
 - Three projects in progress, with title, collaborators, short description, and links if available
-- Teaching, mentoring, service, or awards
-- Email address and profile links such as GitHub, Google Scholar, LinkedIn, ORCID, X, or personal CV
+- Email address, LinkedIn link, and personal CV if available
 - Profile photo, preferably square or portrait
 - CV PDF, if you want a downloadable CV link
 - Preferred GitHub username and repository name
@@ -49,8 +47,7 @@ https://yourusername.github.io/repository-name
 
 ## Editing Tips
 
-- Replace every `Your Name`, `Your University`, `you@example.com`, and placeholder link in `index.html`.
-- Replace `cv.pdf` with your actual CV file name, or remove the CV button.
+- Replace any remaining placeholder profile links in `index.html`.
+- Replace `divyanshu_jain_cv.pdf` with your actual CV file name, or remove the CV button.
 - Replace the profile placeholder with an image once you have one.
-- Keep the working paper section short until you have a public draft.
 - Add or remove project entries by copying or deleting an `.entry` block.
